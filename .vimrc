@@ -1,6 +1,9 @@
 " line number setting
 set number
 
+" highlight search settin
+nnoremap <C-c> :set hlsearch!<CR>
+
 " ctags setting
 set tags=./tags,./TAGS,tags,TAGS
 
@@ -32,15 +35,15 @@ let Tlist_Exit_OnlyWindow=1
 set ut=100
 
 " nerdtree setting
-nmap <F9> :NERDTreeToggle<CR><CR>
+nnoremap <F9> :NERDTreeToggle<CR><CR>
 let NERDTreeWinPos=1
 
 " SrcExpl setting
-nmap <F10> :SrcExplToggle<CR><CR>
+nnoremap <F10> :SrcExplToggle<CR><CR>
 
 " trinity setting
-nmap <F7> :TrinityToggleAll<CR><CR>
+nnoremap <F7> :TrinityToggleAll<CR><CR>
 
 " CurtineIncSw setting
-map ff :call CurtineIncSw()<CR>
+nnoremap <C-x> :call CurtineIncSw()<CR>
 
