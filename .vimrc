@@ -29,20 +29,20 @@ nmap zi :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
 nmap zd :cs find d <C-R>=expand("<cword>")<CR><CR>
 
 " taglist setting
-nnoremap <F8> :TlistToggle<CR><CR>
+nnoremap <F8> :TlistToggle<CR>
 let Tlist_Show_One_File=1
 let Tlist_Exit_OnlyWindow=1
 set ut=100
 
 " nerdtree setting
-nnoremap <F9> :NERDTreeToggle<CR><CR>
+nnoremap <F9> :NERDTreeToggle<CR>
 let NERDTreeWinPos=1
 
 " SrcExpl setting
-nnoremap <F10> :SrcExplToggle<CR><CR>
+nnoremap <F10> :SrcExplToggle<CR>
 
 " trinity setting
-nnoremap <F7> :TrinityToggleAll<CR><CR>
+nnoremap <F7> :TrinityToggleAll<CR>
 
 " CurtineIncSw setting
 nnoremap <C-x> :call CurtineIncSw()<CR>
