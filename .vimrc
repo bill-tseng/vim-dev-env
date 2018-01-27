@@ -47,3 +47,6 @@ nnoremap <F7> :TrinityToggleAll<CR><CR>
 " CurtineIncSw setting
 nnoremap <C-x> :call CurtineIncSw()<CR>
 
+" syntax highlighting setting
+filetype plugin indent on
+syntax on
